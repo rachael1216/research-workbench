@@ -1,0 +1,101 @@
+{
+  "checked_at_utc": "2026-11-02T16:26:01.762088+00:00",
+  "results": [
+    {
+      "source": "crossref",
+      "query": "drift diffusion model",
+      "searched_at_utc": "2026-11-02T16:25:54.509505+00:00",
+      "request_url": "https://api.crossref.org/works?query.bibliographic=drift+diffusion+model&rows=2",
+      "total": 3530030,
+      "returned": 2,
+      "status": "ok",
+      "sample": {
+        "title": "Figure 2—figure supplement 2. Single-participant drift diffusion model fits for the drift bias and starting point models for both conditions.",
+        "authors": [],
+        "year": null,
+        "doi": "10.7554/elife.37321.006",
+        "url": "https://doi.org/10.7554/elife.37321.006",
+        "venue": [],
+        "type": "component",
+        "access_level": "metadata",
+        "update_to": [],
+        "relation": {}
+      }
+    },
+    {
+      "source": "pubmed",
+      "query": "reinforcement learning cognition",
+      "searched_at_utc": "2026-11-02T16:25:57.174442+00:00",
+      "request_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=reinforcement+learning+cognition&retmax=2&retmode=json&tool=research-workbench",
+      "total": 13611,
+      "returned": 2,
+      "status": "ok",
+      "sample": {
+        "title": "Repeated Social Defeat Stress Induces Individual Differences in Effort-Based Motivation Dissociable from Social Avoidance in Mice.",
+        "authors": [
+          "Endo N",
+          "Somayama N",
+          "Furuyashiki T",
+          "Kitaoka S",
+          "Nishi M"
+        ],
+        "published": "2026",
+        "pmid": "42968258",
+        "doi": "10.1248/bpb.b26-00206",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42968258/",
+        "access_level": "metadata"
+      }
+    },
+    {
+      "source": "arxiv",
+      "query": "all:predictive AND all:coding",
+      "searched_at_utc": "2026-11-02T16:25:59.758412+00:00",
+      "request_url": "https://export.arxiv.org/api/query?search_query=all%3Apredictive+AND+all%3Acoding&start=0&max_results=2",
+      "total": 26012,
+      "returned": 2,
+      "status": "ok",
+      "sample": {
+        "title": "Generative Pre-Training for Speech with Autoregressive Predictive Coding",
+        "authors": [
+          "Yu-An Chung",
+          "James Glass"
+        ],
+        "published": "2019-10-23T15:28:51Z",
+        "url": "http://arxiv.org/abs/1910.12607v2",
+        "abstract": "Learning meaningful and general representations from unannotated speech that are applicable to a wide range of tasks remains challenging. In this paper we propose to use autoregressive predictive coding (APC), a recently proposed self-supervised objective, as a generative pre-training approach for learning meaningful, non-specific, and transferable speech representations. We pre-train APC on large-scale unlabeled data and conduct transfer learning experiments on three speech applications that require different information about speech characteristics to perform well: speech recognition, speech translation, and speaker identification. Extensive experiments show that APC not only outperforms surface features (e.g., log Mel spectrograms) and other popular representation learning methods on all three tasks, but is also effective at reducing downstream labeled data size and model parameters. We also investigate the use of Transformers for modeling APC and find it superior to RNNs.",
+        "access_level": "abstract"
+      }
+    },
+    {
+      "tool": "verify_doi",
+      "status": "ok",
+      "record": {
+        "title": "Deep learning",
+        "authors": [
+          "Yann LeCun",
+          "Yoshua Bengio",
+          "Geoffrey Hinton"
+        ],
+        "year": 2015,
+        "doi": "10.1038/nature14539",
+        "url": "https://doi.org/10.1038/nature14539",
+        "venue": [
+          "Nature"
+        ],
+        "type": "journal-article",
+        "access_level": "metadata",
+        "update_to": [],
+        "relation": {
+          "has-review": [
+            {
+              "id-type": "doi",
+              "id": "10.3410/f.725516248.793534414",
+              "asserted-by": "object"
+            }
+          ]
+        }
+      },
+      "checked_at_utc": "2026-11-02T16:26:01.761425+00:00"
+    }
+  ]
+}

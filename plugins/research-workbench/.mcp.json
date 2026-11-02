@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "research-workbench": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--frozen",
+        "--project",
+        "${PLUGIN_ROOT}",
+        "python",
+        "-m",
+        "research_mcp.server"
+      ],
+      "cwd": "${PLUGIN_ROOT}"
+    }
+  }
+}

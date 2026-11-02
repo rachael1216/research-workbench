@@ -1,0 +1,21 @@
+[project]
+name = "research-workbench-mcp"
+version = "0.1.0"
+description = "Evidence-aware research workflows for AI, neuroscience, cognition and psychology"
+requires-python = ">=3.11"
+dependencies = ["mcp>=1.20,<2", "httpx>=0.27,<1"]
+
+[project.scripts]
+research-workbench-mcp = "research_mcp.server:main"
+
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["research_mcp"]
+
+[dependency-groups]
+dev = [
+    "pyyaml>=6,<7",
+]

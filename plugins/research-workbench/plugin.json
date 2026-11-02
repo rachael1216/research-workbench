@@ -1,0 +1,23 @@
+{
+  "name": "research-workbench",
+  "version": "0.1.0",
+  "description": "Evidence-aware research workflows and MCP tools for AI, neuroscience, cognition and psychology.",
+  "author": {
+    "name": "rachael1216"
+  },
+  "license": "MIT",
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "科研 Research Workbench",
+        "shortDescription": "文献、理论、实验与学术写作",
+        "longDescription": "面向 AI、计算神经、认知科学和心理学的本地科研工作流，包含文献检索、理论核查、实验环境与证据保真的写作辅助。",
+        "developerName": "rachael1216",
+        "category": "Education & Research",
+        "capabilities": [],
+        "defaultPrompt": "使用 research-workflow 完成当前科研任务，先识别领域与阶段并继续执行。"
+      }
+    }
+  }
+}

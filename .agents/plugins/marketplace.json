@@ -1,0 +1,5 @@
+{
+  "name": "research-workbench-local",
+  "interface": {"displayName": "Research Workbench"},
+  "plugins": [{"name": "research-workbench", "source": {"source": "local", "path": "./plugins/research-workbench"}, "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}, "category": "Education & Research"}]
+}

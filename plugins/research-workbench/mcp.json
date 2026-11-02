@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "research-workbench": {
+      "type": "stdio",
+      "command": "uv",
+      "args": [
+        "run",
+        "--frozen",
+        "--project",
+        "${PLUGIN_ROOT}",
+        "python",
+        "-m",
+        "research_mcp.server"
+      ],
+      "cwd": "${PLUGIN_ROOT}"
+    }
+  }
+}

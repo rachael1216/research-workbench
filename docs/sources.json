@@ -1,0 +1,74 @@
+[
+  {
+    "repository": "blader/humanizer",
+    "path": "SKILL.md",
+    "blob_sha": "19fc634208e8cc6ae55d4ff287152583216fd244",
+    "reviewed_on": "2026-11-03",
+    "license": "MIT",
+    "decision": "段落结构、冗余识别与作者声音；保留学术文体。",
+    "url": "https://github.com/blader/humanizer/blob/main/SKILL.md"
+  },
+  {
+    "repository": "op7418/Humanizer-zh",
+    "path": "SKILL.md",
+    "blob_sha": "ef07b54da21a41d4a7e4fe0b0afb928f597eb684",
+    "reviewed_on": "2026-11-03",
+    "license": "MIT",
+    "decision": "中文语义、逻辑连接、范围与不确定性的保护。",
+    "url": "https://github.com/op7418/Humanizer-zh/blob/main/SKILL.md"
+  },
+  {
+    "repository": "AIScientists-Dev/academic-humanizer",
+    "path": "SKILL.md",
+    "blob_sha": "afb7d8da3cba41b47365730ceed40fa5a72d8097",
+    "reviewed_on": "2026-11-03",
+    "license": "MIT",
+    "decision": "主张与证据强度校准；不继承固定段落数或绝对标点禁令。",
+    "url": "https://github.com/AIScientists-Dev/academic-humanizer/blob/main/SKILL.md"
+  },
+  {
+    "repository": "hardikpandya/stop-slop",
+    "path": "SKILL.md",
+    "blob_sha": "83f2032fde406e97492ec48ee05ebe46f6403109",
+    "reviewed_on": "2026-11-03",
+    "license": "MIT",
+    "decision": "冗余及模板结构观察；拒绝全面禁止副词与被动语态。",
+    "url": "https://github.com/hardikpandya/stop-slop/blob/main/SKILL.md"
+  },
+  {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/literature-review/SKILL.md",
+    "blob_sha": "5178dce6419cee412155e7b9dd523d5b2ef703f5",
+    "reviewed_on": "2026-11-03",
+    "license": "MIT",
+    "decision": "检索日志、来源层级、记录/报告/研究区别及证据综合。",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/literature-review/SKILL.md"
+  },
+  {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/scientific-critical-thinking/SKILL.md",
+    "blob_sha": "2a2fc151b5b13e4e11ece7410f21a14d5b25e30d",
+    "reviewed_on": "2026-11-03",
+    "license": "MIT",
+    "decision": "先抽取后评价，独立单位、偏差与主张边界。",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/scientific-critical-thinking/SKILL.md"
+  },
+  {
+    "repository": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/statistical-analysis/SKILL.md",
+    "blob_sha": "4ea7453a12e63f0dbc31d7a47ed41fe3ff4c4c1a",
+    "reviewed_on": "2026-11-03",
+    "license": "MIT",
+    "decision": "estimand、依赖结构、效应与不确定性；不复制其依赖版本。",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/skills/statistical-analysis/SKILL.md"
+  },
+  {
+    "repository": "ictumuk/skill-solve-math",
+    "path": "skills/rigorous-proofs/SKILL.md",
+    "blob_sha": "2028172e7720edc9f8ac037ed10f12f80868fa58",
+    "reviewed_on": "2026-11-03",
+    "license": "MIT",
+    "decision": "精确命题、依赖结构和反例检查；重写流程，避免用自评 PASS 保证正确。",
+    "url": "https://github.com/ictumuk/skill-solve-math/blob/main/skills/rigorous-proofs/SKILL.md"
+  }
+]
