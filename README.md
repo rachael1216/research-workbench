@@ -70,3 +70,5 @@ uv run --frozen --project plugins/research-workbench python scripts/validate_pac
 [来源和蒸馏取舍](docs/SOURCES.md) · [版本化来源记录](docs/sources.json) · [第三方通知](plugins/research-workbench/THIRD_PARTY_NOTICES.md)
 
 MIT。此仓库公开源码，不代表上架公共插件目录；本地 stdio MCP 不提供网页/手机远程服务。
+
+每次使用 research-workflow 时，按[研究过程与结论汇报模板](plugins/research-workbench/skills/research-workflow/assets/research-report-template.md)创建或更新项目的 `research-report.md`；未知或未执行的部分会明确标记。
